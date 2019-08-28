@@ -20,13 +20,11 @@
 }
 
 #navleft img{
-    height: auto; 
-    width: auto; 
-    max-width: 20%; 
-    max-height: 20%;
+    max-width: 50%; 
+    max-height: 50%;
     border-left: 10px;
     margin-left: 20px;
-    margin-top: 0px;
+    margin-top: 3px;
 
 }
 
@@ -36,3 +34,20 @@
 	position: absolute;
 	margin-top: 10px;
 }
+
+#searchbar{
+	padding-top: 4px;
+	margin-top: 3px;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+
+	
+
+
+
